@@ -17,7 +17,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
         "spring.jmx.default-domain=MailControllerTest"})
 public class MailControllerTest extends BasicWiremockTest {
 
-    @Ignore
+//    @Ignore
     @Test
     public void sendMail() throws Exception {
 
