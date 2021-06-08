@@ -22,8 +22,8 @@ public class MailControllerTest extends BasicWiremockTest {
     public void sendMail() throws Exception {
 
         MailDto mailDto = MailDto.builder()
-                .from("apatsimas@solcrowe.gr")
-                .to("gliolios@solcrowe.gr")
+                .from("gliolios@solcrowe.gr")
+                .to("apatsimas@solcrowe.gr")
                 .subject("Authentication Succeed")
                 .text("You have successfully been authenticated")
                 .build();
